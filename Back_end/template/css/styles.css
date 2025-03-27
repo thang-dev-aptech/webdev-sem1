@@ -1,0 +1,151 @@
+/* Thiết lập background với hiệu ứng mờ */
+body {
+    background: url('https://source.unsplash.com/1600x900/?technology,abstract') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+/* Card đăng nhập */
+.login-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Tiêu đề */
+.login-card h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input nhóm */
+.input-group-text {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    border-color: #6610f2;
+    box-shadow: 0px 0px 10px rgba(102, 16, 242, 0.5);
+}
+
+/* Nút đăng nhập */
+.btn-login {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    border: none;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: linear-gradient(135deg, #0056b3, #520dc2);
+    box-shadow: 0px 5px 15px rgba(102, 16, 242, 0.3);
+}
+
+/* Link dưới form */
+.auth-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-links a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.auth-links a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* Thiết lập background với hiệu ứng mờ */
+body {
+    background: url('https://source.unsplash.com/1600x900/?business,tech') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+/* Card đăng ký */
+.register-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Tiêu đề */
+.register-card h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input nhóm */
+.input-group-text {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    border: none;
+}
+
+.form-control:focus {
+    border-color: #6610f2;
+    box-shadow: 0px 0px 10px rgba(102, 16, 242, 0.5);
+}
+
+/* Nút đăng ký */
+.btn-register {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    border: none;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background: linear-gradient(135deg, #0056b3, #520dc2);
+    box-shadow: 0px 5px 15px rgba(102, 16, 242, 0.3);
+}
+
+/* Link đăng nhập */
+.auth-links {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.auth-links a {
+    color: #007bff;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.auth-links a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
