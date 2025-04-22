@@ -1,0 +1,16 @@
+# .env file
+.env
+
+# Composer
+/vendor/
+/composer.lock
+
+# Logs
+/storage/logs/
+
+# Uploads
+/storage/uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
